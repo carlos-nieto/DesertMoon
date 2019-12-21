@@ -1,0 +1,24 @@
+# PORT
+server.port: 8090
+
+# SPRING
+#spring:
+#  jackson:
+#    date-format: MM/dd/YYYY
+
+
+# INTERNALIZATION
+spring.messages.basename: messages
+
+# ACTUATOR
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+# LOGGING
+logging.level:
+  org.springframework: debug
+
